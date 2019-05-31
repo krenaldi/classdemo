@@ -1,0 +1,87 @@
+<!-- Demo Layout for Bootstrap (with cards) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Portfolio</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+  <!-- Start navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand mb-1 h1" href="#">Navbar</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- End Navbar -->
+<!-- Main Body goes in Container -->
+  <div class="container">
+    <!-- First Row with Header -->
+    <div class="row">
+            <div class="col-md-8">
+                <div class="page-header">
+                    <h1>About Me</h1>
+                </div>
+                <!-- Subrow with image & about me text -->
+                <div class="row">
+                  <div class="col-md-3"><img class="img img-thumbnail" src="http://placehold.it/150x150">
+                  </div>
+                    <div class="col-md-9">
+                    <p>Nisi est sit amet facilisis magna. Vitae semper quis lectus nulla at volutpat diam ut venenatis. Massa vitae
+                        tortor condimentum lacinia quis vel eros donec. Faucibus turpis in eu mi bibendum neque. Nunc consequat interdum
+                        varius sit amet mattis. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras.
+                        Mollis aliquam ut porttitor leo a diam sollicitudin. Suspendisse faucibus interdum posuere lorem ipsum. Lectus
+                        urna duis convallis convallis tellus id interdum velit. Pretium aenean pharetra magna ac. In egestas erat
+                        imperdiet sed euismod nisi porta lorem mollis. Turpis egestas pretium aenean pharetra. Convallis posuere morbi
+                        leo urna molestie. Eu sem integer vitae justo eget magna fermentum. Tincidunt ornare massa eget egestas purus
+                        viverra accumsan in. Accumsan lacus vel facilisis volutpat est velit egestas dui. Sed adipiscing diam donec
+                        adipiscing tristique risus nec feugiat in.</p>
+                    </div>
+                  </div>
+                </div>  
+      <!--Create Card taking up 4 Columns-->
+      <div class="col-md-4">
+            <div class="card mt-2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+        </div>
+     </div>
+    </div>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
